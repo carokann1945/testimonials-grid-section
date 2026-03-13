@@ -14,9 +14,16 @@
   --color-purple-500: #733fc8;
 }
 
-@utility pattern {
+@utility patternxl {
   background-image: url('/images/bg-pattern-quotation.svg');
-  background-position: right top;
+  background-position: right 60px top;
+  background-size: 104px auto;
+  background-repeat: no-repeat;
+}
+
+@utility patternmd {
+  background-image: url('/images/bg-pattern-quotation.svg');
+  background-position: right 165px top;
   background-size: 104px auto;
   background-repeat: no-repeat;
 }

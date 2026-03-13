@@ -21,7 +21,7 @@ const reviews: Review[] = [
     titleColor: 'text-white',
     contentColor: 'text-purple-50',
     gridArea: 'md:col-span-2',
-    bgPattern: 'md:pattern',
+    bgPattern: 'md:patternmd xl:patternxl',
   },
   {
     id: 2,
