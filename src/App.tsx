@@ -83,7 +83,7 @@ function App() {
         className={cn(
           'max-w-[305px] md:max-w-[647px] xl:max-w-[1114px]',
           'grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-[32px]',
-          'mx-auto pt-[83px] xl:pt-[229px]',
+          'mx-auto mt-[83px] mb-[73px] md:mb-[113px] xl:mt-[229px] xl:mb-[218px]',
         )}>
         {reviews.map((review) => (
           <Card key={review.id} data={review} />
